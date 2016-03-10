@@ -1,0 +1,32 @@
+Hey all,
+
+Here's how to make it possible for you to just type "git push" at the terminal for a push to occur:
+
+Step One: Create a repo in github.
+
+Step Two: Initialize your repo on your computer (from your project root).
+
+git init
+Step Three: Set up your remote, it can be named whatever you want but for simplicity I'll use "origin" (from your project root).
+
+git remote add origin "https://github.com/your-github-username/your-github-repo-name.git"
+Step Four: Set up your global git config user info.
+
+git config --global user.name "Your Name"
+git config --global user.email your.email@email.com
+Step Five: Set your global git push method to "simple" mode.
+
+git config --global push.default simple
+Step Six: Set your git upstream branch (from your project root).
+
+git push --set-upstream origin master
+Step Seven: Turn on the GitHub OSX Key Chain credential helper.
+
+git config --global credential.helper osxkeychain
+Step Eight: Do your initial add, commit, and push. Enter your user name and password. After the first push, you will no longer be required to enter anything.
+
+Step Nine: Just type git push in a terminal window the next time you need to push! Be sure to add and commit your changes first :wink:
+
+Step Ten: Enjoy and share the info!
+
+For additional information read about github credential caching and also check out Git documentation.
