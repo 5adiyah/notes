@@ -1,0 +1,27 @@
+- app.component
+- main.ts
+
+- food.model
+
+- calories.pipe
+
+- food.component
+- food-list.component
+- edit-food.component
+- new-food.component
+
+1. add meal model
+2. add meal component
+3. display meal list on front end
+4. display meal description
+5. add new-food component and display in front end
+6. add edit-food component and display in front end
+7. add calorie pipe
+8. add pipe to food-list
+
+1. add meal model
+2. add new-meal component
+3. add meal-list component which will display meals in a list
+4. add meal-details component which will display the details
+5. add meal editing functionality
+6. add pipe to filter displayed meals by calories
