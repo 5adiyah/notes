@@ -1,0 +1,17 @@
+## To Do
+
+- Create models for quesion and answer
+- create json file (use the one in trash)
+- add index route
+- add a question-list component to display links 
+- add question-new component
+- add quesion route to display individual question
+- add question-detail to display question details
+- add question-update component to edit question details
+
+- add answer-new component 
+- display answers on corresponding question page
+- add delete question and corresponding answer feature
+- add answer-update
+- add answer delete feature
+
