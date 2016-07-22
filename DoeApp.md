@@ -7,21 +7,17 @@
 - Testimonials Page
 	- Add Testimonials
     - View Testimonials
+- Upcoming Events
+	- Design to match app
+    - Remove Event Photos and do a grid like the website.
+        - Event Name
+        - Age Limit
+        - Ticket Price
 
 ## TODO
 
-- Upcoming Events
-	- Design to match app
-    - Add admin page
-    	- Instead of figuring out admin panel, just add a page that has a password
-    - Remove Event Photos and do a grid like the website. Then each event can link site
-    	- Date
-        - Event Name
-        - Age Limit
-        - Tickets Available
-        - Ticket Price
-        - Link to buy ticket
-- Upcoming Photos page
+
+- Photos page
 	- Add Doe instagram instead of mine
     - Design to match app
 
